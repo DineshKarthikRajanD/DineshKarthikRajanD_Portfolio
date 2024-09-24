@@ -1,0 +1,15 @@
+
+#app-container {
+    position: relative;
+    height: 100vh; 
+    margin: 0;
+    overflow: hidden; 
+  }
+  
+.text-white {
+    position: relative;
+    color: #ffffff; 
+    z-index: 1; 
+  }
+
+  
