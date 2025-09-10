@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import profileImage from "../assets/profileImage.jpg";
 
 function About() {
   return (
@@ -7,7 +8,7 @@ function About() {
       <h1 className="text-center text-2xl md:text-4xl font-mono mt-28">
         About me
       </h1>
-      <div className="flex flex-col md:flex-row justify-between items-center pb-24">
+      <div className="flex flex-col md:flex-row justify-around items-center pb-24">
         <motion.div
           className="w-[90%] md:w-[750px] mt-16"
           initial={{ x: 100, opacity: 0 }}
@@ -27,9 +28,9 @@ function About() {
         </motion.div>
 
         <img
-          src="https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg"
+          src={profileImage}
           alt="Profile image of Dinesh Karthik"
-          className="rounded-s-full mt-28 w-[90%] md:w-[80vh]"
+          className="w-[70vh] h-[70vh] rounded-full"
         />
       </div>
     </div>
